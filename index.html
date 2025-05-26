@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="icon" type="image/webp" href="https://thedigiwiser.com/assets/images/favicon.webp">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for hamburger menu icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- International Telephone Input CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://thedigiwiser.com/assets/images/digiwiser-logo.webp" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <div class="phone">
+                <img src="https://cdn-icons-png.flaticon.com/512/323/323310.png" alt="USA flag" class="flag">
+                <span>+1-302-803-4752</span>
+            </div>
+            <button class="join-btn">JOIN OUR TEAM</button>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="https://thedigiwiser.com/assets/images/join-our-team-banner.png" alt="Join Our Team Banner">
+    </section>
+
+    <section class="join-team">
+        <div class="container">
+            <div class="heading-group">
+                <span class="pre-title">Join Our Team</span>
+                <h1 class="section-title">Dream Bigger, Earn Smarter – Join Us Today!</h1>
+            </div>
+            
+            <div class="join-content">
+                <div class="left-content">
+                    <h3 class="orange-text">Join Our Team and Earn Big!</h3>
+                    <p>Welcome to an exciting opportunity to work from the comfort of your home and earn up to $5,000! Becoming a part of our team is simple, flexible, and rewarding.</p>
+                    
+                    <h3 class="orange-text">What You'll Do</h3>
+                    <p>Your role is straightforward—share our services with others in your network. Whether it's through word-of-mouth, social media, or direct recommendations, every successful connection you create brings you closer to your earnings goal.</p>
+                    
+                    <h3 class="orange-text">Why Join Us?</h3>
+                    <div class="benefits">
+                        <p><strong>Flexible Work:</strong> No office, no fixed hours—work when and how it suits you.</p>
+                        <p><strong>Unlimited Potential:</strong> There's no cap on your earnings; the more you connect, the more you earn.</p>
+                        <p><strong>Rewarding Opportunities:</strong> Earn up to $5,000 by helping others discover services they'll love!</p>
+                    </div>
+                    
+                    <h3 class="orange-text">How It Works</h3>
+                    <div class="steps">
+                        <p><strong>Sign Up:</strong> Start by joining our team—it's quick and easy.</p>
+                        <p><strong>Share:</strong> Spread the word about our services.</p>
+                        <p><strong>Earn:</strong> Get rewarded for every successful connection you create.</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="right-content">
+                    <form class="join-form">
+                        <div class="form-group">
+                            <label>Full Name*</label>
+                            <input type="text" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Email*</label>
+                            <input type="email" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Phone Number*</label>
+                                <input type="tel" id="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Whatsapp Number</label>
+                                <input type="tel" id="whatsapp">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Attach File</label>
+                            <input type="file" id="fileInput" accept="image/*">
+                            <div id="imagePreview" class="image-preview"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="6"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="join-team-btn">JOIN TEAM</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="testimonials-title">Testimonials</h2>
+            
+            <div class="testimonials-carousel">
+                <button class="carousel-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon">❝</div>
+                            <div class="testimonial-content">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Chris" class="testimonial-img">
+                                <p class="testimonial-text">I've been in business for a while, but Digiwiser's affiliate program has opened up a new income stream for me. I'm now earning around $5,000 per month by promoting their products – a fantastic addition to my entrepreneurial journey!</p>
+                                <h3 class="testimonial-name">Chris</h3>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon">❝</div>
+                            <div class="testimonial-content">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah" class="testimonial-img">
+                                <p class="testimonial-text">Freelancing has its ups and downs, but Digiwiser has been a game-changer for me. I've been earning $1,200 monthly by promoting their products and services. The flexibility of affiliate marketing fits perfectly with my freelance schedule!</p>
+                                <h3 class="testimonial-name">Sarah</h3>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon">❝</div>
+                            <div class="testimonial-content">
+                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="John" class="testimonial-img">
+                                <p class="testimonial-text">As a student, I was looking for a way to make extra cash online. I started working with Digiwiser and am now earning about $350 a month through affiliate marketing. It's been a great way to balance school and work from home!</p>
+                                <h3 class="testimonial-name">John</h3>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon">❝</div>
+                            <div class="testimonial-content">
+                                <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Emma" class="testimonial-img">
+                                <p class="testimonial-text">Being a stay-at-home mom, I needed something flexible that could bring in extra income. Digiwiser's program has been perfect - I'm making $2,500 monthly while taking care of my family. It's truly the best of both worlds!</p>
+                                <h3 class="testimonial-name">Emma</h3>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 5 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon">❝</div>
+                            <div class="testimonial-content">
+                                <img src="https://randomuser.me/api/portraits/men/92.jpg" alt="Michael" class="testimonial-img">
+                                <p class="testimonial-text">After retiring early, I wanted to stay active and earn some extra income. Through Digiwiser's program, I'm now making $3,000 monthly by leveraging my professional network. It's been an incredibly rewarding experience!</p>
+                                <h3 class="testimonial-name">Michael</h3>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 6 -->
+                        <div class="testimonial-card">
+                            <div class="quote-icon">❝</div>
+                            <div class="testimonial-content">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lisa" class="testimonial-img">
+                                <p class="testimonial-text">As a digital marketer, I'm always looking for quality products to promote. Digiwiser's services have been a hit with my audience, and I'm consistently earning $4,000+ monthly. Their support team is amazing too!</p>
+                                <h3 class="testimonial-name">Lisa</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- Add Carousel Dots -->
+                <div class="carousel-dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Contact Section -->
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="https://thedigiwiser.com/assets/images/digiwiser-logo.webp" alt="Digiwiser Logo">
+                </div>
+                <div class="footer-contact">
+                    <p>info@thedigiwiser.com</p>
+                    <p>+1-302-803-4752+44-151-528-9594</p>
+                </div>
+                <div class="address-section">
+                    <h4>USA Address</h4>
+                    <p>Branch 1: Head Office: 221 W 9th St PMB 150, Wilmington, DE 19801</p>
+                    <p>Site Office: Ely Nevada 89301, USA</p>
+                </div>
+                <div class="address-section">
+                    <h4>UK Address</h4>
+                    <p>Branch 2: Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA.</p>
+                </div>
+            </div>
+
+            <!-- Menu Section -->
+            <div class="footer-section">
+                <h3>Menu</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Service Section -->
+            <div class="footer-section">
+                <h3>Service</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Logo Design</a></li>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Video Animation</a></li>
+                    <li><a href="#">Brand Development</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Mobile App Development</a></li>
+                </ul>
+            </div>
+
+            <!-- Additional Services Section -->
+            <div class="footer-section">
+                <ul class="footer-links" style="margin-top: 52px;">
+                    <li><a href="#">Marketing Collateral</a></li>
+                    <li><a href="#">App Design Development</a></li>
+                    <li><a href="#">2D And 3D Illustration</a></li>
+                    <li><a href="#">Creative Copywriting</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Social Media Marketing</a></li>
+                    <li><a href="#">Ebook Design</a></li>
+                    <li><a href="#">All</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="copyright">
+                    Copyright © 2024 Digiwiser. All rights reserved. <a href="#">Privacy</a> <a href="#">Terms</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- International Telephone Input JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+        // Initialize phone inputs
+        const phoneInput = document.querySelector("#phone");
+        const whatsappInput = document.querySelector("#whatsapp");
+        
+        // Initialize IntlTelInput for phone number
+        const phoneInstance = window.intlTelInput(phoneInput, {
+            separateDialCode: true,
+            initialCountry: "pk",
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+
+        // Initialize IntlTelInput for whatsapp number
+        const whatsappInstance = window.intlTelInput(whatsappInput, {
+            separateDialCode: true,
+            initialCountry: "pk",
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+
+        // File input preview functionality
+        const fileInput = document.getElementById('fileInput');
+        const imagePreview = document.getElementById('imagePreview');
+
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                
+                reader.onload = function(e) {
+                    imagePreview.innerHTML = `<img src="${e.target.result}" alt="File Preview">`;
+                    imagePreview.classList.add('show');
+                }
+                
+                reader.readAsDataURL(file);
+            } else {
+                imagePreview.innerHTML = '';
+                imagePreview.classList.remove('show');
+            }
+        });
+
+        // Toggle mobile menu
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const rightSection = document.querySelector('.right-section');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            rightSection.classList.toggle('active');
+        });
+
+        // Testimonials Carousel
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const nextButton = document.querySelector('.next-btn');
+        const prevButton = document.querySelector('.prev-btn');
+        const dotsContainer = document.querySelector('.carousel-dots');
+        const dots = Array.from(dotsContainer.children);
+        
+        let currentIndex = 0;
+        let touchStartX = 0;
+        let touchEndX = 0;
+        
+        function getVisibleSlides() {
+            if (window.innerWidth <= 768) return 1;
+            if (window.innerWidth <= 1024) return 2;
+            return 3;
+        }
+        
+        function updateCarousel() {
+            const visibleSlides = getVisibleSlides();
+            const containerWidth = document.querySelector('.carousel-container').offsetWidth;
+            const gap = 30;
+            const slideWidth = (containerWidth - (gap * (visibleSlides - 1))) / visibleSlides;
+            const slideAndGap = slideWidth + gap;
+            const maxIndex = slides.length - visibleSlides;
+            
+            // Update slide widths
+            slides.forEach(slide => {
+                slide.style.minWidth = `${slideWidth}px`;
+            });
+            
+            // Ensure currentIndex stays within bounds
+            if (currentIndex > maxIndex) {
+                currentIndex = maxIndex;
+            }
+            if (currentIndex < 0) {
+                currentIndex = 0;
+            }
+            
+            // Calculate the transform value including gaps
+            const transformValue = -(currentIndex * slideAndGap);
+            track.style.transform = `translateX(${transformValue}px)`;
+            
+            // Update button states
+            prevButton.style.opacity = currentIndex <= 0 ? '0.5' : '1';
+            prevButton.style.pointerEvents = currentIndex <= 0 ? 'none' : 'auto';
+            
+            nextButton.style.opacity = currentIndex >= maxIndex ? '0.5' : '1';
+            nextButton.style.pointerEvents = currentIndex >= maxIndex ? 'none' : 'auto';
+
+            // Update dots
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+        
+        // Next button click
+        nextButton.addEventListener('click', () => {
+            const visibleSlides = getVisibleSlides();
+            const maxIndex = slides.length - visibleSlides;
+            
+            if (currentIndex < maxIndex) {
+                currentIndex++;
+                updateCarousel();
+            }
+        });
+        
+        // Prev button click
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCarousel();
+            }
+        });
+
+        // Dot navigation
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        // Touch events for swipe
+        track.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+        });
+
+        track.addEventListener('touchmove', (e) => {
+            touchEndX = e.touches[0].clientX;
+        });
+
+        track.addEventListener('touchend', () => {
+            const touchDiff = touchStartX - touchEndX;
+            const threshold = 50; // minimum distance for swipe
+
+            if (Math.abs(touchDiff) >= threshold) {
+                if (touchDiff > 0 && currentIndex < slides.length - getVisibleSlides()) {
+                    // Swipe left
+                    currentIndex++;
+                } else if (touchDiff < 0 && currentIndex > 0) {
+                    // Swipe right
+                    currentIndex--;
+                }
+                updateCarousel();
+            }
+        });
+        
+        // Initialize carousel
+        updateCarousel();
+        
+        // Handle window resize with debounce
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                updateCarousel();
+            }, 250);
+        });
+    </script>
+</body>
+</html> 
